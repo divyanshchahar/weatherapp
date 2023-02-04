@@ -1,4 +1,5 @@
 import DropDownToggle from "../components/DropDownToggle";
+import SearchBar from "./SearchBar";
 
 import brandingWeatherChannel from "../assets/images/branding_the_weather_channel.png";
 import brandingToI from "../assets/images/branding_times_of_india.png";
@@ -15,6 +16,8 @@ function TopNavBar() {
       <div className={styles.branding_2}>
         <img src={brandingToI} alt="" />
       </div>
+
+      <SearchBar />
 
       <DropDownToggle />
     </div>
