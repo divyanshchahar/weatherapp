@@ -1,0 +1,15 @@
+.container {
+  width: 5vw;
+}
+
+@media screen and (min-width: 429px) {
+  .container {
+    width: 3vw;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .container {
+    width: 2.5vw;
+  }
+} ;

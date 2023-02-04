@@ -1,0 +1,53 @@
+.conatiner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 2vw;
+
+  background-color: #005986;
+}
+
+.branding_1 {
+  width: 10vw;
+}
+
+.branding_1 img {
+  width: 100%;
+}
+
+.branding_2 {
+  width: 30vw;
+}
+
+.branding_2 img {
+  width: 100%;
+}
+
+@media screen and (min-width: 429px) {
+  .conatiner {
+    padding: 1vw;
+  }
+
+  .branding_1 {
+    width: 5vw;
+  }
+
+  .branding_2 {
+    width: 15vw;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .conatiner {
+    padding: 0.5vw;
+  }
+
+  .branding_1 {
+    width: 3.5vw;
+  }
+
+  .branding_2 {
+    width: 10vw;
+  }
+} ;

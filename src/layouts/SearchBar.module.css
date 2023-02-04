@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  order: 1;
+  position: relative;
+
+  border-radius: 1.5rem;
+
+  background-color: #1a6a92;
+  padding: 1.5vw;
+}
+
+img {
+  width: 5vw;
+}
+
+input {
+  font-size: 1rem;
+  color: white;
+  background-color: #1a6a92;
+  border: none;
+  width: 100%;
+  border-radius: 1.5rem;
+}
+
+@media screen and (min-width: 429px) {
+  .container {
+    padding: 0.5vw;
+  }
+
+  img {
+    width: 2.5vw;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+} ;
