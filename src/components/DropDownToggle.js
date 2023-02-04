@@ -4,7 +4,7 @@ import downCaret from "../assets/images/icon_caret_down.svg";
 import upCaret from "../assets/images/icon_caret_up.svg";
 
 function DropDownToggle() {
-  const [toggled, setToggled] = useState(false);
+  const [toggled, setToggled] = useState(true);
 
   return (
     <div
