@@ -12,7 +12,11 @@ function DropDownToggle() {
         setToggled(!toggled);
       }}
     >
-      {toggled ? <img src={downCaret} alt="" /> : <img src={upCaret} alt="" />}
+      {toggled ? (
+        <img src={downCaret} alt="downward facing arrow" />
+      ) : (
+        <img src={upCaret} alt="up facing arrow" />
+      )}
     </div>
   );
 }
