@@ -27,7 +27,7 @@ function TopNavBar({ stateFunc }) {
         <DropDownToggle />
       </div>
 
-      <SearchResults props={cities} stateFunc={stateFunc} />
+      <SearchResults citiesArray={cities} stateFunc={stateFunc} />
     </>
   );
 }
