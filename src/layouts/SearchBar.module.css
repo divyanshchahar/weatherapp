@@ -34,5 +34,8 @@ input {
   }
 }
 
-@media screen and (min-width: 1025px) {
-} ;
+/* 
+TODO
+1. replace color defination with variables
+2. use Variables for font size and weight 
+*/
