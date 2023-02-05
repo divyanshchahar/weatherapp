@@ -5,6 +5,12 @@ import searchIComn from "../assets/images/icon_magnifying_glass.svg";
 import styles from "./SearchBar.module.css";
 import { useState } from "react";
 
+/**
+ * React Componenet to render reserach bar
+ * @param {function} stateFunc - state function to change change componenet state of list of cities
+ * @returns JSX
+ */
+
 function SearchBar({ stateFunc }) {
   const [city, setCity] = useState();
 

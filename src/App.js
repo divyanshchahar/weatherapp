@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import CurrentWeather from "./layouts/CurrentWeather";
 
+import CurrentWeather from "./layouts/CurrentWeather";
 import TopNavBAr from "./layouts/TopNavBar";
 
 function App() {

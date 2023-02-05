@@ -8,6 +8,12 @@ import brandingToI from "../assets/images/branding_times_of_india.png";
 import styles from "./TopNavBar.module.css";
 import { useState } from "react";
 
+/**
+ * Function to render top navigation bar
+ * @param {function} stateFunc - statae function to change selected city
+ * @returns JSX
+ */
+
 function TopNavBar({ stateFunc }) {
   const [cities, setCities] = useState();
 
@@ -27,7 +33,7 @@ function TopNavBar({ stateFunc }) {
         <DropDownToggle />
       </div>
 
-      <SearchResults props={cities} func={stateFunc} />
+      <SearchResults citiesArray={cities} stateFunc={stateFunc} />
     </>
   );
 }
