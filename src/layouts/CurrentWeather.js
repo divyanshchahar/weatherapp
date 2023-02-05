@@ -4,6 +4,12 @@ import GetCurrentWeather from "../utils/GetCurrentWeather";
 
 import styles from "./CurrentWeather.module.css";
 
+/**
+ * Function to render current weather
+ * @param {object} selectedCity
+ * @returns
+ */
+
 function CurrentWeather({ selectedCity }) {
   const [currentWeather, setCurrentWeather] = useState();
 
