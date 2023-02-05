@@ -2,6 +2,22 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Prerequisites
+
+To sucessfully run this project, an API Key is required.
+
+This can be obtained from [https://openweathermap.org](https://openweathermap.org)
+
+Create a file named `APiKEy.js` using your API key as shown in the example below
+
+```js
+const ApiKey = "YOUR_API_KEY";
+
+export default ApiKey;
+```
+
+this file should be placed in `src/assets/private/`
+
 ## Available Scripts
 
 In the project directory, you can run:
