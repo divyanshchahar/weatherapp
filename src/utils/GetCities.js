@@ -1,5 +1,11 @@
 import ApiKey from "../assets/private/ApiKey";
 
+/**
+ *
+ * @param {string} city - name of the city
+ * @param {function} stateFunc - state function to change componenet state
+ */
+
 function GetCities(city, stateFunc) {
   fetch(
     `http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=5&appid=${ApiKey}`
