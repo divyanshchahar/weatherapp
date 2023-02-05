@@ -1,7 +1,7 @@
 import ApiKey from "../assets/private/ApiKey";
 
 /**
- *
+ * function to fetch match city names
  * @param {string} city - name of the city
  * @param {function} stateFunc - state function to change componenet state
  */
