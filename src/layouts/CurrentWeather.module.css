@@ -1,0 +1,89 @@
+.container {
+  border-radius: 2.55vw;
+  margin: 5vw;
+  background-color: black;
+}
+
+.felx_cintainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(20, 20, 20, 1);
+
+  border-radius: 0 0 2.5vw 2.5vw;
+  padding: 5vw;
+}
+
+.img_container {
+  width: 40%;
+}
+
+.img_container img {
+  width: 100%;
+}
+
+.temprature {
+  font-size: 2rem;
+  font-weight: 800;
+  color: white;
+}
+
+.condition {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: white;
+}
+
+.temp_range {
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+}
+
+.heading {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: white;
+  padding: 0.5rem;
+}
+
+@media screen and (min-width: 429px) {
+  .container {
+    border-radius: 2.55vw;
+    margin: 15vw;
+    background-color: black;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .container {
+    border-radius: 1vw;
+    margin: 1vw 25vw 0 25vw;
+    background-color: black;
+  }
+
+  .temprature {
+    font-size: 3rem;
+    font-weight: 800;
+    color: white;
+  }
+
+  .heading {
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+    padding: 0.5rem;
+  }
+
+  .condition {
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+  }
+
+  .temp_range {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: white;
+  }
+}

@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 import styles from "./SearchResults.module.css";
 
-function SearchResults({ props }) {
+function SearchResults({ props, func }) {
   const [cities, setcities] = useState(props);
   const [isVisible, setIsVisible] = useState(true);
 
@@ -19,6 +19,9 @@ function SearchResults({ props }) {
             return (
               <div
                 className={styles.item}
+                onClick={() => {
+                  func(item);
+                }}
               >{`${item.name}, ${item.country}`}</div>
             );
           })}
