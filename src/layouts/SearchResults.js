@@ -2,14 +2,21 @@ import { useEffect, useState } from "react";
 
 import styles from "./SearchResults.module.css";
 
-function SearchResults({ props, stateFunc }) {
-  const [cities, setcities] = useState(props);
+/**
+ * Function to render search results
+ * @param {*} props -
+ * @param {*} stateFunc
+ * @returns JSX
+ */
+
+function SearchResults({ citiesArray, stateFunc }) {
+  const [cities, setcities] = useState(citiesArray);
   const [isVisible, setIsVisible] = useState(true);
 
   useEffect(() => {
-    setcities(props);
+    setcities(citiesArray);
     setIsVisible(true);
-  }, [props]);
+  }, [citiesArray]);
 
   if (cities && isVisible) {
     return (
